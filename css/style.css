@@ -23,3 +23,53 @@
     cursor: pointer;
     padding: 9px 25px;
 }
+
+.cat1, .cat2, .cat3{
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+.cat1{
+    background: -moz-linear-gradient(left,  #ffa500 0%, #ffa500 100%);
+    background: -webkit-linear-gradient(left,  #ffa500 0%,#ffa500 100%);
+    background: linear-gradient(to right,  #ffa500 0%,#ffa500 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa500', endColorstr='#ffa500',GradientType=1 );
+}
+.cat2{
+    background: -moz-linear-gradient(left,  #da70d6 0%, #da70d6 100%);
+    background: -webkit-linear-gradient(left,  #da70d6 0%,#da70d6 100%);
+    background: linear-gradient(to right,  #da70d6 0%,#da70d6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da70d6', endColorstr='#da70d6',GradientType=1 );
+}
+.cat3{
+    background: -moz-linear-gradient(left,  #0000ff 0%, #0000ff 100%);
+    background: -webkit-linear-gradient(left,  #0000ff 0%,#0000ff 100%);
+    background: linear-gradient(to right,  #0000ff 0%,#0000ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000ff', endColorstr='#0000ff',GradientType=1 );
+}
+
+.categories img{
+    width: 100px;
+}
+
+.categories h1{
+    color: #fff;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer{
+    border: none;
+}
+
+#subscribe{
+    height: 300px;
+}
+
+#subscribe h6{
+    color: gray;
+}
+
